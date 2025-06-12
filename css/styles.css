@@ -1,10 +1,19 @@
+
+body {
+  background-image: url("../assets/xzayvion.svg"), url("../assets/chris.svg"); /*setting the background to me and chris*/
+  background-size: contain, contain;
+  background-repeat: no-repeat;
+  background-position: left -50% center, right -50% center;
+  min-height: 100vh;
+  margin: 0;
+}
 h1 {
     text-align: center;
 }
 
 .wav {
     width: 80%;
-    background-color: rgb(255, 176, 112);
+    background: linear-gradient(270deg,rgba(255,255,255, 0),rgb(255, 176, 112)); /*gradient effect for music files*/
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -13,7 +22,7 @@ h1 {
 
 .instrumental {
     width: 80%;
-    background-color: rgb(133, 187, 241);
+    background: linear-gradient(90deg,rgba(255,255,255, 0),rgb(133, 187, 241)); /*gradient effect for music files*/
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -31,4 +40,8 @@ h2 {
 audio {
   display: block; /* Makes margin: auto work */
   margin: 0 auto; /* Centers horizontally */
+}
+
+.xzayvion {
+  
 }
