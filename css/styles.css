@@ -1,9 +1,9 @@
 
 body {
-  background-image: url("../assets/xzayvion.svg"), url("../assets/chris.svg"); /*setting the background to me and chris*/
-  background-size: contain, contain;
+  background-image: url("../assets/xzayvion.svg"), url("../assets/chris.svg"), url("../assets/american\ _dust.svg"); /*setting the background to me and chris*/
+  background-size: contain, contain, cover;
   background-repeat: no-repeat;
-  background-position: calc(50% - 50vw + 600px) center, calc(50% + 50vw - 600px) center;
+  background-position: calc(50% - 50vw + 600px) center, calc(50% + 50vw - 600px) center, center;
   min-height: 100vh;
   margin: 0 auto;
   max-width: 2000px;
